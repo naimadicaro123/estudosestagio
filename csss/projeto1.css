@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cabeca-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 31, 8);
+    width: 100%;
+    padding: 15px;
+}
+
+img {
+    width: 400px;
+    height: 100px;
+}
+
+.estagiario {
+    margin-top: 20px;
+    padding: 5px 25px; /* Alterado */
+    width: 100%;
+}
+
+.faz {
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+li:nth-child(1) {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    list-style: none;
+    
+}
+
+.destagios {
+    margin-left: 25px;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+    padding: 0 25px; /* Alterado */
+}
+
+.all p {
+    align-items: flex-start;
+}
+
+.azul, .branco, .laranja {
+    margin: 0 10px;
+    padding: 10px;
+    text-align: start;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    flex: 1; /* Garantir que todas as divs ocupem o mesmo espaço */
+}
+
+.azul {
+    background-color: mediumaquamarine;
+}
+
+.branco {
+    background-color: white;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.asul {
+    background-color: blue;
+    transition: 0.5s ease-in-out;
+}
+
+.blanco {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+.naranja {
+    background-color: inherit;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 2px solid #000000;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+buttom:hover{   
+    color: purple;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+a:hover {
+    color: purple;
+}
+
+@media (max-width: 768px) {
+    .all {
+        flex-direction: column;
+    }
+
+    .azul, .branco, .laranja {
+        margin-bottom: 10px;
+    }
+}
+
+.pe {
+    padding: 10px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-top: 75px;
+    display: flex;
+    border-top: 3px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
