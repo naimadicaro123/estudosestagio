@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -16,30 +17,37 @@ body {
     width: 100%;
     padding: 15px;
 }
-
+h2{
+    font-family: 'opens Sans', sans-serif;
+}
 img {
     width: 400px;
     height: 100px;
 }
-
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .estagiario {
     margin-top: 20px;
-    padding: 5px 25px; /* Alterado */
+    padding: 5px 25px;
     width: 100%;
 }
-
+.textao{
+    margin-left: 8px;
+}
 .faz {
     margin-bottom: 15px;
 }
 
 li {
     list-style: none;
-    margin-left: 25px;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
 }
 
 li:nth-child(1) {
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-right: 20px;
     list-style: none;
     
@@ -55,11 +63,13 @@ li:nth-child(1) {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 15px;
-    padding: 0 25px; /* Alterado */
+    padding: 0 25px;
 }
 
 .all p {
     align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .azul, .branco, .laranja {
@@ -68,7 +78,7 @@ li:nth-child(1) {
     text-align: start;
     box-sizing: border-box;
     transition: 0.3s ease-in-out;
-    flex: 1; /* Garantir que todas as divs ocupem o mesmo espaço */
+    flex: 1;
 }
 
 .azul {
@@ -92,7 +102,10 @@ button {
     margin-top: 10px;
     transition: background-color 0.3s ease-in-out;
 }
-
+button:hover {
+    background-color: black;
+    color: white;
+}
 .asul {
     background-color: blue;
     transition: 0.5s ease-in-out;
